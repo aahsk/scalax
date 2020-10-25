@@ -36,6 +36,6 @@ ScalariformKeys.preferences := ScalariformKeys.preferences.value
   .setPreference(AlignParameters, true)
   .setPreference(AlignSingleLineCaseStatements, true)
 
-coverageExcludedPackages := "com.github.t3hnar.scalax.examples.*"
+coverageExcludedPackages := "<empty>;com.github.t3hnar.scalax.examples.*"
 
 publishTo := sonatypePublishToBundle.value
